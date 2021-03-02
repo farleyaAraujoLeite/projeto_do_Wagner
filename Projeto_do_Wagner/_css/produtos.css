@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Crimson Pro' ;
+    src: url("font-family: 'Archivo Black', sans-serif");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/*Formatando a interface*/
+
+div#interface {
+    background-color: rgb(31, 30, 30);
+    margin: -20px auto 0px auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0,.5);
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header#cabecalho img#icone {
+    position: relative;
+    top: -30;
+    padding: 20px;
+    width: 150px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/por-do-sol.jpg") no-repeat  0px 0px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+header#cabecalho h1 {
+    font-family: 'fontelogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 15pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 0px;
+
+}
+
+
+
+/*Formatação do menu*/
+
+nav#menu {
+    display: block;
+    
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: red;
+    position: relative;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0,.5);
+} 
+
+nav#menu li:hover {
+    background-color: #e41274;
+
+}
+
+
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #111111;
+}
+
+
+
+.produto1 img {
+    width: 100px;
+    padding: 5px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 1px  white;
+    background-color: white;
+}
+
+.botao1 button {
+    font-size: 10pt;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+}
+
+.produto2 img {
+    width: 100px;
+    padding: 5px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 1px  white;
+    background-color: white;
+    
+}
+
+
+
+.produto3 img {
+
+    width: 100px;
+    padding: 5px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 1px  white;
+    background-color: white;
+   
+
+}
+
+
+
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #cfb0b0;
+    margin-top: 50px;
+    background-image: url("../_imagens/parede-de-tijolo-preto-texturizado-fundo_53876-63572.jpg");
+ 
+ }
+ 
+ footer#rodape p {
+    margin-top: 20px;
+    text-align: center;
+ 
+}
+
+
+ 
+ footer#rodape img {
+     width: 20px;
+     padding: 5px;
+     margin-bottom: -10px;
+ }
+
+

@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+div#interface {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    
+}
